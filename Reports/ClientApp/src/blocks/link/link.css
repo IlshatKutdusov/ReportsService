@@ -1,0 +1,9 @@
+.link:active,
+.link {
+  text-decoration: none;
+  color: #0000bb;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,18 @@
+.content__button {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 14px 8px 14px;
+  font-size: 12px;
+  line-height: 1.15;
+  max-width: 150px;
+  width: 100%;
+}
+
+.content__button:hover {
+  opacity: .8;
+}

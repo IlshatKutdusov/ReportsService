@@ -1,0 +1,14 @@
+.popup__field {
+  position: relative;
+  margin: 0;
+}
+
+.popup__field:first-of-type {
+  margin: 54px 0 0 0;
+}
+
+@media screen and (max-width: 635px) {
+  .popup__field:first-of-type {
+    margin: 75px 0 0 0;
+  }
+}

@@ -1,0 +1,15 @@
+.file__remove-button {
+  background: none;
+  background-image: url(../../../images/remove.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  width: 16px;
+  height: 17.34px;
+  border: none;
+  margin-left: 12px;
+}
+
+.file__remove-button:hover {
+  opacity: .6;
+}

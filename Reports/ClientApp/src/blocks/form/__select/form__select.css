@@ -1,0 +1,19 @@
+.form__select {
+  margin: 15px 0 0 0;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  font-size: 14px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  padding: 0 0 10px 0;
+  background-image: url('../../../images/arrow.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 12px;
+}
+
+.form__select:focus {
+  background-image: url('../../../images/arrow-reverse.png');
+}

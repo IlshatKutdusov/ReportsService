@@ -1,0 +1,32 @@
+.popup__close-button {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background-color: transparent;
+  background-image: url(../../../images/crest.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: center;
+  border: none;
+  outline: none;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  cursor: pointer;
+  display: block;
+  transform: rotate(45deg);
+}
+
+.popup__close-button:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 635px) {
+  .popup__close-button {
+    width: 26px;
+    height: 26px;
+    background-size: 26px;
+    top: -39px;
+    right: 0;
+  }
+}
